@@ -2,9 +2,9 @@
 A simple implementation of Alien Invasion using Pygame
 
 ### STEPS
-1.[Project Setup](#project-setup);
-2. [Start Game Project](#start-project);
-3. [Add Ship Image](#add-ship-image);
+1. [Project Setup](#project-setup)
+2. [Start Game Project](#start-project)
+3. [Add Ship Image](#add-ship-image)
 4. [Refactor: `_check_events()` and `_update_screen()`](#refactor)
 
 #### Project Setup
