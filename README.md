@@ -8,6 +8,7 @@ A simple implementation of Alien Invasion using Pygame
 4. [Refactor: `_check_events()` and `_update_screen()`](#refactor)
 5. [Piloting the Ship](#piloting-the-ship)
 6. [Shooting Bullets](#shooting-bullets)
+7. [Creating the First Alien](#creating-the-first-alien)
 
 #### Project Setup
 1. Create virtual environment: `python3 -m venv .venv`
@@ -46,3 +47,7 @@ A simple implementation of Alien Invasion using Pygame
 5. Ensure bullets that pass the top edge of the game window are deleted.
 6. Limit number of bullets to 3.
 7. Move bullet updating logic to private `_update_bullets()` method.
+
+#### Create the First Alien
+1. Create the Alien module.
+2. Create an instance of Alien.
