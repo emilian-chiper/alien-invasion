@@ -22,7 +22,6 @@ class Bullet(Sprite):
         """Move the bullet up the screen."""
         # Update the exact position of the bullet.
         self.y -= self.settings.bullet_speed
-
         # Update the rect positon.
         self.rect.y = self.y
 
