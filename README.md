@@ -7,6 +7,7 @@ A simple implementation of Alien Invasion using Pygame
 3. [Add Ship Image](#add-ship-image)
 4. [Refactor: `_check_events()` and `_update_screen()`](#refactor)
 5. [Piloting the Ship](#piloting-the-ship)
+6. [Shooting Bullets](#shooting-bullets)
 
 #### Project Setup
 1. Create virtual environment: `python3 -m venv .venv`
@@ -36,3 +37,12 @@ A simple implementation of Alien Invasion using Pygame
 5. Limit ship range up to game window edges.
 6. Refactor `_check_events()` method into `_keydown` and `_keyup` private methods.
 7. Add keydown event for `Q` in order to quit game.
+
+#### Shooting Bullets
+1. Add bullet settings.
+2. Create Bullet class.
+3. Store bullets in group.
+4. Implement bullet firing logic.
+5. Ensure bullets that pass the top edge of the game window are deleted.
+6. Limit number of bullets to 3.
+7. Move bullet updating logic to private `_update_bullets()` method.
