@@ -3,10 +3,10 @@ A simple implementation of Alien Invasion using Pygame
 
 ### STEPS
 1. [Project Setup](#project-setup)
-2. [Start Game Project](#start-project)
+2. [Start Game Project](#start-game-project)
 3. [Add Ship Image](#add-ship-image)
 4. [Refactor: `_check_events()` and `_update_screen()`](#refactor)
-5. [Piloting the Ship](#pilot-ship)
+5. [Piloting the Ship](#piloting-the-ship)
 
 #### Project Setup
 1. Create virtual environment: `python3 -m venv .venv`
