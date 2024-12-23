@@ -9,6 +9,9 @@ A simple implementation of Alien Invasion using Pygame
 5. [Piloting the Ship](#piloting-the-ship)
 6. [Shooting Bullets](#shooting-bullets)
 7. [Creating the First Alien](#creating-the-first-alien)
+8. [Building the Alien Fleet](#building-the-alien-fleet)
+9. [Making the Fleet Move](#making-the-fleet-move)
+10. [Shooting Aliens](#shooting-aliens)
 
 #### Project Setup
 1. Create virtual environment: `python3 -m venv .venv`
@@ -48,6 +51,23 @@ A simple implementation of Alien Invasion using Pygame
 6. Limit number of bullets to 3.
 7. Move bullet updating logic to private `_update_bullets()` method.
 
-#### Create the First Alien
+#### Creating the First Alien
 1. Create the Alien module.
 2. Create an instance of Alien.
+
+#### Building the Alien Fleet
+1. Create a row of aliens.
+2. Refactor `_create_fleet()` and separate alien creation into private method.
+3. Add more rows to the fleet.
+
+#### Making the Fleet Move
+1. Move the aliens right.
+2. Create settings for fleet direction.
+3. Check collision between alien and game window edge.
+4. Drop fleet and change direction.
+
+#### Shooting Aliens
+1. Detect bullet collisions.
+2. Repopulate the fleet.
+3. Speed up the bullets.
+4. Refactor away bullet collision into private method.
