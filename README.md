@@ -12,6 +12,7 @@ A simple implementation of Alien Invasion using Pygame
 8. [Building the Alien Fleet](#building-the-alien-fleet)
 9. [Making the Fleet Move](#making-the-fleet-move)
 10. [Shooting Aliens](#shooting-aliens)
+11. [Ending the Game](#ending-the-game)
 
 #### Project Setup
 1. Create virtual environment: `python3 -m venv .venv`
@@ -71,3 +72,10 @@ A simple implementation of Alien Invasion using Pygame
 2. Repopulate the fleet.
 3. Speed up the bullets.
 4. Refactor away bullet collision into private method.
+
+#### Ending the Game
+1. Detect alien-ship collisions.
+2. Respond to alien-ship collisions.
+3. Check when aliens reach the bottom of the screen.
+4. Implement game end mechanism.
+5. Identify when parts of the game should run.
